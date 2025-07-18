@@ -1,4 +1,4 @@
-package com.practicalTest.practicalTest.config;// WebClientConfig.java
+package com.practicalTest.practicalTest.config;
 
 
 import org.springframework.context.annotation.Bean;

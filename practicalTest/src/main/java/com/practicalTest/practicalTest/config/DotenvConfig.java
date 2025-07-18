@@ -8,7 +8,7 @@ public class DotenvConfig {
 
     public DotenvConfig() {
         Dotenv dotenv = Dotenv.configure()
-                .directory("./practicalTest") // Specify the directory containing .env
+                .directory("./practicalTest")
                 .load();
         dotenv.entries().forEach(entry -> System.setProperty(entry.getKey(), entry.getValue()));
     }
