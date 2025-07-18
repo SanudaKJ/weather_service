@@ -1,4 +1,4 @@
-package com.practicalTest.practicalTest.config;// AsyncConfig.java
+package com.practicalTest.practicalTest.config;
 
 
 import org.springframework.context.annotation.Bean;
